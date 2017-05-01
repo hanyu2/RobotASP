@@ -1,0 +1,23 @@
+robot(r0). 
+robot(r1). 
+robot(r2).
+node(1..7).
+
+% initial state: 
+pos(r0,1). 
+pos(r1,3). 
+pos(r2,2).
+% goal state.
+target(r0,5).
+target(r1,6).
+target(r2,4).
+
+loc(0,10,0)
+loc(1,9,1)
+loc(2,7,2)
+loc(3,5,3)
+loc(4,2,4)
+loc(5,0,4)
+loc(6,1,3)
+
+
